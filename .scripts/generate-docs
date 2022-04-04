@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# generates the xml docs
+haxe hxml/docs.hxml
+
+# creates html files from the xml
+haxelib run dox -i docs --toplevel-package result
+
+# cleanup the old stuff.
+rm -fR docs

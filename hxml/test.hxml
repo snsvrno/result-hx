@@ -1,3 +1,3 @@
 -main Test
 -cp lib
--neko test.n
+-neko bin/test.n

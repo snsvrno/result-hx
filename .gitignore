@@ -3,9 +3,12 @@
 .neko
 .haxelib
 
-# test builds.
-*.n
+# test builds
+bin/
 
-# the website
+# local archive versions of this library
+dist/
+
+# the website and doc generation
 pages
 docs

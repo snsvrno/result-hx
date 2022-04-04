@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Version?"
+read version
+
+file=result-$version.zip
+
+zip dist/$file -r lib/ LICENSE README.md haxelib.json
+
+echo "Submit $file? (y/N)"
+read answer
+
+if [[ "$answer" = [yY] ]]; then
+	haxelib submit dist/$file
+fi

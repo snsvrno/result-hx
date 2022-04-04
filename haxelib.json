@@ -1,0 +1,11 @@
+{
+	"name": "result",
+	"url": "https://github.com/snsvrno/result-hx",
+	"license": "MIT",
+	"tags": ["haxe","error","type"],
+	"description": "Simple return enum for safe function returns with error handling",
+	"version": "0.1.0",
+	"contributors": ["snsvrno"],
+	"classPath": "lib/",
+	"releasenote": "Inital release"
+}

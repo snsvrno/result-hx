@@ -1,0 +1,7 @@
+# local build environment
+.haxe
+.neko
+.haxelib
+
+# test builds.
+*.n

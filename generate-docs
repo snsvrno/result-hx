@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# cleanup the old stuff.
+rm -fR docs
+
+haxe docs.hxml
+
+haxelib run dox -i docs --toplevel-package result

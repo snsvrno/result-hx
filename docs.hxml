@@ -1,0 +1,7 @@
+-cp lib
+-D doc-gen
+--macro include('result')
+
+--no-output
+-neko d.n
+-xml docs/doc.xml

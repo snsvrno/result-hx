@@ -5,3 +5,7 @@
 
 # test builds.
 *.n
+
+# the website
+pages
+docs

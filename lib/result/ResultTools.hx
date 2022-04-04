@@ -1,5 +1,14 @@
-package haxe.ds;
+package result;
 
+/**
+ * Tools to help when working with `Result`
+ *
+ * Recommended to use as a static extension.
+ *
+ * ```haxe
+ * using result.Result;
+ * ```
+ */
 class ResultTools {
 
 	/**

@@ -4,8 +4,8 @@
 	"license": "MIT",
 	"tags": ["haxe","error","type"],
 	"description": "Simple return enum for safe function returns with error handling",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"contributors": ["snsvrno"],
 	"classPath": "lib/",
-	"releasenote": "Inital release"
+	"releasenote": "includes readme and license in package"
 }

@@ -20,7 +20,7 @@ function main() {
 }
 ```
 
-Some helper functions are included in `haxe.ds.ResultTools`
+Some helper functions are included in `result.ResultTools`
 
 ```haxe
 using result.ResultTools;

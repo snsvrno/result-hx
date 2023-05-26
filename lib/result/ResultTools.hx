@@ -21,6 +21,13 @@ class ResultTools {
 		}
 	}
 
+	inline public static function unwrapError<T,E>(result : Result<T,E>) : E {
+		switch(result) {
+			case Ok(r): throw 'cannot unwrap a sucessful result $r';
+			case Error(e): return e;
+		}
+	}
+
 	/**
 	 * checks if the `Result` is `Ok`
 	 */
@@ -34,6 +41,7 @@ class ResultTools {
 	/**
 	 * checks if the `Result` is `Error`
 	 */
-	inline public static function isError<T,E>(result : Result<T,E>) : Bool return !isOk(result);
+	inline public static function isError<T,E>(result : Result<T,E>) : Bool
+		return !isOk(result);
 
 }

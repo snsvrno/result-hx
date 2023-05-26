@@ -1,3 +1,9 @@
 -main Test
+
 -cp lib
--neko bin/test.n
+-cp test
+
+-lib utest
+
+-D no-deprecation-warnings
+--interp

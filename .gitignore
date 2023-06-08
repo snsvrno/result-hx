@@ -2,6 +2,7 @@
 .haxe
 .neko
 .haxelib
+.envrc
 
 # test builds
 bin/
